@@ -62,7 +62,7 @@ namespace VarietyPackPlugin.Behaviour
         }
 
        
-        //This is probably the worst way to handle all these checks but I dont fuckin know anything about networking LMAO
+        //This is probably the worst way to handle all these checks but I dont fuckin know anything about networking LMAO.
         [ClientRpc]
         public void JackpotClientRpc() {
             CoinAudio.PlayOneShot(Slot);
